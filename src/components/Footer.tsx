@@ -10,9 +10,10 @@ export function Footer() {
         <div>
           <Logo variant="light" />
           <p className="mt-4 max-w-xs text-[14px] leading-[20.44px] text-border-strong">
-            Location de véhicules et service de chauffeur à Cotonou et partout au Bénin. Ponctuel,
-            fiable et abordable.
+            BNT — Bénin Négoce Transport. Location de véhicules et service de chauffeur à Cotonou et
+            partout au Bénin. Ponctuel, fiable et abordable.
           </p>
+
         </div>
 
         <div>
