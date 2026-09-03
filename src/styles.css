@@ -71,34 +71,34 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0 0 0);
 
-  /* Brand green #009900 */
-  --primary: oklch(0.5665 0.1836 142.5);
+  /* Brand orange (logo) #F2620F */
+  --primary: oklch(0.6732 0.1906 45.7);
   --primary-foreground: oklch(1 0 0);
-  /* Dark forest green #027B00 */
-  --primary-dark: oklch(0.4779 0.1521 142.6);
-  --primary-hover: oklch(0.5124 0.1668 142.5);
+  /* Deep burnt orange for pressed states */
+  --primary-dark: oklch(0.5732 0.1706 45.7);
+  --primary-hover: oklch(0.6232 0.1806 45.7);
 
-  /* Bright yellow #FFDC00 */
-  --secondary: oklch(0.8983 0.1849 100.5);
-  --secondary-foreground: oklch(0 0 0);
-  --secondary-hover: oklch(0.8783 0.1849 98);
+  /* Logo black — near-black charcoal surfaces */
+  --secondary: oklch(0.205 0 0);
+  --secondary-foreground: oklch(1 0 0);
+  --secondary-hover: oklch(0.305 0 0);
 
-  --muted: oklch(0.9761 0 0);
+  --muted: oklch(0.9661 0.005 60);
   --muted-foreground: oklch(0.5103 0 0);
-  --accent: oklch(0.9761 0 0);
-  --accent-foreground: oklch(0 0 0);
+  --accent: oklch(0.954 0.032 65);
+  --accent-foreground: oklch(0.205 0 0);
 
   /* Error #E70940 */
   --destructive: oklch(0.5701 0.2265 12.5);
   --destructive-foreground: oklch(1 0 0);
 
-  /* Link blue #0000EE */
-  --link: oklch(0.3211 0.2378 264.05);
+  /* Links use the brand orange (darkened for readability) */
+  --link: oklch(0.5732 0.1706 45.7);
 
-  --border: oklch(0.8471 0 0);
-  --border-strong: oklch(0.8073 0 0);
-  --input: oklch(0.8471 0 0);
-  --ring: oklch(0.3211 0.2378 264.05);
+  --border: oklch(0.8771 0.005 60);
+  --border-strong: oklch(0.8073 0.008 60);
+  --input: oklch(0.8771 0.005 60);
+  --ring: oklch(0.6732 0.1906 45.7);
   --surface-alt: oklch(0.9761 0 0);
   --text-secondary: oklch(0.3211 0 0);
   --text-tertiary: oklch(0.5103 0 0);
