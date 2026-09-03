@@ -72,7 +72,7 @@ export function BookingForm({
             type="tel"
             value={form.telephone}
             onChange={set("telephone")}
-            placeholder="01 94 95 28 47"
+            placeholder="01 91 00 22 73"
           />
         </div>
         <div>
