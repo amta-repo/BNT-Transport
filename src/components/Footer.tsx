@@ -71,7 +71,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/15 py-6 text-center text-[14px] text-border-strong">
-        © {new Date().getFullYear()} Mojo Cars. Tous droits réservés.
+        © {new Date().getFullYear()} BNT. Tous droits réservés.
       </div>
     </footer>
   );

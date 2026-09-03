@@ -8,7 +8,7 @@ export function CarCard({ car }: { car: Car }) {
       <div className="relative aspect-[4/3] overflow-hidden bg-surface-alt">
         <img
           src={car.image}
-          alt={`${car.name} en location chez Mojo Cars`}
+          alt={`${car.name} en location chez BNT`}
           loading="lazy"
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />

@@ -164,9 +164,9 @@ export const formatFcfa = (value: number) =>
   new Intl.NumberFormat("fr-FR").format(value) + " FCFA";
 
 export const CONTACT = {
-  phone: "+229 95 36 61 61",
-  phoneHref: "tel:+22995366161",
-  whatsapp: "https://wa.me/22995366161",
+  phone: "+229 01 91 00 22 73",
+  phoneHref: "tel:+2290191002273",
+  whatsapp: "https://wa.me/2290191002273",
   address: "Cotonou, Bénin",
   plusCode: "9CF3+RP Cotonou",
   maps: "https://www.google.com/maps/search/?api=1&query=9CF3%2BRP+Cotonou",
