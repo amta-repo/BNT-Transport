@@ -6,16 +6,16 @@ import { CONTACT } from "@/data/cars";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact & agence | Mojo Cars Cotonou" },
+      { title: "Contact & agence | BNT Cotonou" },
       {
         name: "description",
         content:
-          "Mojo Cars — Cotonou (9CF3+RP). Appelez ou écrivez sur WhatsApp au +229 95 36 61 61 pour louer un véhicule.",
+          "BNT — Cotonou (9CF3+RP). Appelez ou écrivez sur WhatsApp au +229 01 91 00 22 73 pour louer un véhicule.",
       },
-      { property: "og:title", content: "Contact & agence | Mojo Cars" },
+      { property: "og:title", content: "Contact & agence | BNT" },
       {
         property: "og:description",
-        content: "Nous joindre : Cotonou, téléphone et WhatsApp +229 95 36 61 61.",
+        content: "Nous joindre : Cotonou, téléphone et WhatsApp +229 01 91 00 22 73.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -79,7 +79,7 @@ function ContactPage() {
 
         <div className="min-h-[420px] overflow-hidden rounded-[10px] border border-border">
           <iframe
-            title="Localisation de Mojo Cars à Cotonou"
+            title="Localisation de BNT à Cotonou"
             src="https://www.google.com/maps?q=9CF3%2BRP%20Cotonou&output=embed"
             className="h-full min-h-[420px] w-full"
             loading="lazy"

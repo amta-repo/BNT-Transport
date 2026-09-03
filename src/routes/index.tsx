@@ -8,13 +8,13 @@ import { cars, CONTACT, lexusGreyHero, interior } from "@/data/cars";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Mojo Cars — Location de voiture à Cotonou, Bénin" },
+      { title: "BNT — Location de voiture à Cotonou, Bénin" },
       {
         name: "description",
         content:
-          "Louez un SUV Lexus, un pick-up Hilux ou une berline à Cotonou. Avec ou sans chauffeur, tarifs clairs. Réservation WhatsApp au +229 95 36 61 61.",
+          "Louez un SUV Lexus, un pick-up Hilux ou une berline à Cotonou. Avec ou sans chauffeur, tarifs clairs. Réservation WhatsApp au +229 01 91 00 22 73.",
       },
-      { property: "og:title", content: "Mojo Cars — Location de voiture à Cotonou" },
+      { property: "og:title", content: "BNT — Location de voiture à Cotonou" },
       {
         property: "og:description",
         content:
@@ -54,12 +54,12 @@ const reviews = [
   {
     name: "Robert Rédacteur web",
     meta: "2 avis · il y a 5 mois",
-    text: "MojoCars, c'est toujours un service fiable et efficace",
+    text: "BNT, c'est toujours un service fiable et efficace",
   },
   {
     name: "Innocentia Vodounon",
     meta: "1 avis · il y a 9 mois",
-    text: "J'ai toujours vécu de belles expériences avec Mojocars, je les recommande vivement.",
+    text: "J'ai toujours vécu de belles expériences avec BNT, je les recommande vivement.",
   },
   {
     name: "alabi Abdoul",
@@ -96,7 +96,7 @@ function Index() {
       <section className="relative isolate overflow-hidden bg-foreground">
         <img
           src={lexusGreyHero}
-          alt="SUV Lexus RX gris de Mojo Cars au crépuscule"
+          alt="SUV Lexus RX gris de BNT au crépuscule"
           className="absolute inset-0 h-full w-full object-cover opacity-55"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/20" />
@@ -184,7 +184,7 @@ function Index() {
         <div className="container-dax grid items-center gap-10 lg:grid-cols-2">
           <img
             src={interior}
-            alt="Intérieur cuir beige d'un véhicule Mojo Cars"
+            alt="Intérieur cuir beige d'un véhicule BNT"
             loading="lazy"
             className="w-full rounded-[10px] object-cover"
           />

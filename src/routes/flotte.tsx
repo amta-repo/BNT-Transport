@@ -6,16 +6,16 @@ import { cars } from "@/data/cars";
 export const Route = createFileRoute("/flotte")({
   head: () => ({
     meta: [
-      { title: "Notre flotte de véhicules | Mojo Cars Cotonou" },
+      { title: "Notre flotte de véhicules | BNT Cotonou" },
       {
         name: "description",
         content:
           "SUV Lexus, pick-up Toyota Hilux et berlines Avensis en location à Cotonou. Tarifs journaliers clairs, avec ou sans chauffeur.",
       },
-      { property: "og:title", content: "Notre flotte de véhicules | Mojo Cars" },
+      { property: "og:title", content: "Notre flotte de véhicules | BNT" },
       {
         property: "og:description",
-        content: "Découvrez les SUV, pick-up et berlines disponibles à la location chez Mojo Cars.",
+        content: "Découvrez les SUV, pick-up et berlines disponibles à la location chez BNT.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

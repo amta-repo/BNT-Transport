@@ -14,13 +14,13 @@ export const Route = createFileRoute("/reservation")({
 
   head: () => ({
     meta: [
-      { title: "Réserver un véhicule | Mojo Cars Cotonou" },
+      { title: "Réserver un véhicule | BNT Cotonou" },
       {
         name: "description",
         content:
-          "Réservez votre voiture de location en quelques secondes à Cotonou. Confirmation rapide par WhatsApp au +229 95 36 61 61.",
+          "Réservez votre voiture de location en quelques secondes à Cotonou. Confirmation rapide par WhatsApp au +229 01 91 00 22 73.",
       },
-      { property: "og:title", content: "Réserver un véhicule | Mojo Cars" },
+      { property: "og:title", content: "Réserver un véhicule | BNT" },
       {
         property: "og:description",
         content: "Formulaire de réservation rapide, avec ou sans chauffeur, à Cotonou.",

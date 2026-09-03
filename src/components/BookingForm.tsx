@@ -27,7 +27,7 @@ export function BookingForm({
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = [
-      "Nouvelle demande de réservation — Mojo Cars",
+      "Nouvelle demande de réservation — BNT",
       `Nom: ${form.nom}`,
       `Téléphone: ${form.telephone}`,
       `Véhicule: ${form.vehicule || "À conseiller"}`,
@@ -72,7 +72,7 @@ export function BookingForm({
             type="tel"
             value={form.telephone}
             onChange={set("telephone")}
-            placeholder="01 94 95 28 47"
+            placeholder="01 91 00 22 73"
           />
         </div>
         <div>

@@ -1,15 +1,20 @@
 import { Link } from "@tanstack/react-router";
+import logo from "@/assets/bnt-logo.png";
 
 export function Logo({ variant = "dark" }: { variant?: "dark" | "light" }) {
-  const daxColor = variant === "light" ? "text-background" : "text-primary";
-  const subColor = variant === "light" ? "text-secondary" : "text-text-secondary";
-
   return (
-    <Link to="/" className="inline-flex flex-col leading-none no-underline" aria-label="Mojo Cars — accueil">
-      <span className={`text-[28px] font-bold tracking-tight ${daxColor}`}>MOJO</span>
-      <span className={`text-[11px] font-bold uppercase tracking-[0.28em] ${subColor}`}>
-        Cars
-      </span>
+    <Link
+      to="/"
+      className="inline-flex items-center no-underline"
+      aria-label="BNT — Bénin Négoce Transport — accueil"
+    >
+      <img
+        src={logo}
+        alt="Logo BNT — Bénin Négoce Transport"
+        width={176}
+        height={88}
+        className={`h-[52px] w-auto ${variant === "light" ? "brightness-0 invert" : ""}`}
+      />
     </Link>
   );
 }
